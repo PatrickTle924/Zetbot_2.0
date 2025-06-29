@@ -6,7 +6,7 @@ from discord.ext.commands import CommandNotFound
 import re
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-URI = os.getenv("MONGO_URI", "mongodb://mongo:27017/zetdb")
+URI = os.getenv("MONGO_URI")
 
 ## check for TOKEN
 if not TOKEN:
